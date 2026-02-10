@@ -1,0 +1,6 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Label text="Score: 0" name="ScoreLabel" style="top: 20px; align-self: center; font-size: 20px; -unity-text-outline-color: rgb(20, 233, 12); color: rgb(57, 248, 22); -unity-font-style: bold;" />
+    <ui:Button text="Restart" name="RestartButton" parse-escape-sequences="false" style="align-self: center; position: absolute; top: 50%;" />
+    <ui:Button text="Pause" name="PauseButton" style="height: 49px; width: 95px; top: 83%; left: 39px; position: absolute;" />
+    <ui:Button text="resume" name="ResumeButton" style="position: absolute; top: 246px; width: 342px; left: 330px;" />
+</ui:UXML>
